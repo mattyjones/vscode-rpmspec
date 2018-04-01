@@ -10,17 +10,30 @@
     "categories": [
         "Languages"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mattyjones/vscode-rpmspec.git"
+    },
     "contributes": {
-        "languages": [{
-            "id": "rpmspec",
-            "aliases": ["rpmspec", "rpmspec"],
-            "extensions": [".spec"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "rpmspec",
-            "scopeName": "source.spec",
-            "path": "./syntaxes/spec.tmLanguage"
-        }]
+        "languages": [
+            {
+                "id": "rpmspec",
+                "aliases": [
+                    "rpmspec",
+                    "rpmspec"
+                ],
+                "extensions": [
+                    ".spec"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "rpmspec",
+                "scopeName": "source.spec",
+                "path": "./syntaxes/spec.tmLanguage"
+            }
+        ]
     }
 }
