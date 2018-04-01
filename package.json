@@ -19,7 +19,6 @@
             {
                 "id": "rpmspec",
                 "aliases": [
-                    "rpmspec",
                     "rpmspec"
                 ],
                 "extensions": [
