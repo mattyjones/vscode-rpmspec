@@ -1,0 +1,26 @@
+{
+    "name": "vscode-rpmspec",
+    "displayName": "vscode-rpmspec",
+    "description": "Syntax highlighting for rpmspec",
+    "version": "0.0.1",
+    "publisher": "mattyjones",
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "rpmspec",
+            "aliases": ["rpmspec", "rpmspec"],
+            "extensions": [".spec"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "rpmspec",
+            "scopeName": "source.spec",
+            "path": "./syntaxes/spec.tmLanguage"
+        }]
+    }
+}
